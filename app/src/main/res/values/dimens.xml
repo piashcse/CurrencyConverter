@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_alert_start_margin">30dp</dimen>
+    <dimen name="common_alert_top_margin">15dp</dimen>
+    <dimen name="common_alert_end_margin">30dp</dimen>
+    <dimen name="common_alert_max_height">300dp</dimen>
+    <dimen name="common_alert_ok_button_top_margin">40dp</dimen>
+    <dimen name="common_alert_title_top_margin">40dp</dimen>
+    <dimen name="common_alert_title_height">45dp</dimen>
+    <dimen name="common_alert_card_radius">20dp</dimen>
+    <dimen name="line_height_21_sp">21sp</dimen>
+
+    <dimen name="text_size_14">14sp</dimen>
+</resources>

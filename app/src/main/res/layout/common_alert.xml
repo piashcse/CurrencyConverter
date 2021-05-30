@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/common_alert_card_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/alert_title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_alert_title_height"
+                android:layout_marginTop="@dimen/common_alert_top_margin"
+                android:gravity="center"
+                android:text="@string/common_alert_title_text"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/description_text_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/common_alert_start_margin"
+                android:layout_marginTop="@dimen/common_alert_top_margin"
+                android:layout_marginEnd="@dimen/common_alert_end_margin"
+                android:maxHeight="@dimen/common_alert_max_height"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14"
+                app:lineHeight="@dimen/line_height_21_sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ok_button"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_alert_ok_button_top_margin"
+                android:background="@color/teal_200"
+                android:text="@string/ok"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
